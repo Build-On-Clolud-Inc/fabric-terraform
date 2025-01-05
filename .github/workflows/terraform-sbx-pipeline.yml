@@ -93,4 +93,4 @@ jobs:
         
     - name: Terraform Apply
       if: github.ref == 'refs/heads/sbx' && github.event_name == 'push'
-      run: terraform apply tfplan -auto-approve
+      run: terraform apply -auto-approve tfplan     
