@@ -9,6 +9,6 @@ terraform {
   }
 }
 
-# Configure the Microsoft Fabric Terraform Provider   
+# Configure the Microsoft Fabric Terraform Provider  
 provider "fabric" {
 }
